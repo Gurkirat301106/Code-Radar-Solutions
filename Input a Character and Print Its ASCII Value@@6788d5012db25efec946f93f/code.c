@@ -3,5 +3,5 @@ int main()
 {
     char alpha;
     scanf("%c",&alpha);
-    printf("%d",alpha);
+    printf("ASCII Value: %d",alpha);
 }
