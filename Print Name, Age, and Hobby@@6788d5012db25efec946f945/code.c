@@ -13,6 +13,6 @@ int main()
     fgets(hobby,sizeof(hobby),stdin);
     printf("Name: %s",name);
     printf("Age: %d\n",age);
-    printf("Hobby: %s",hobby)
+    printf("Hobby: %s",hobby);
     return 0;
 }
