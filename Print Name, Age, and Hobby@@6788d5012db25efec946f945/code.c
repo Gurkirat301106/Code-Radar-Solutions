@@ -11,8 +11,8 @@ int main()
     getchar();
     printf("Enter your favorite hobby: ");
     fgets(hobby,sizeof(hobby),stdin);
-    printf("Name: %s",name);
+    printf("Name: %s\n",name);
     printf("Age: %d\n",age);
-    printf("Hobby: %s",hobby);
+    printf("Hobby: %s\n",hobby);
     return 0;
 }
