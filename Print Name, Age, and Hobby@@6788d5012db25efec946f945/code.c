@@ -12,7 +12,7 @@ int main()
     scanf("%d",&age);
     getchar();
     printf("Enter your hobby: ");
-    fgets(hobby,sizeof(hobby),stdin);
+    fgets(hobby, sizeof(hobby),stdin);
     hobby[strcspn(hobby, "\n")] = '\0';
     printf("Name: %s\n",name);
     printf("Age: %d\n",age);
