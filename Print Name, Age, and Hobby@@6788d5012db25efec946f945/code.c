@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 int main()
 {
     char name[50];
@@ -7,10 +8,10 @@ int main()
     printf("Enter your name: ");
     fgets(name,sizeof(name),stdin);
     name[strcspn(name, "\n")] = '\0';
-    printf("Enter your age: ")
+    printf("Enter your age: ");
     scanf("%d",&age);
     getchar();
-    printf("Enter your hobby: ")
+    printf("Enter your hobby: ");
     fgets(hobby,sizeof(hobby),stdin);
     hobby[strcspn(hobby, "\n")] = '\0';
     printf("Name: %s\n",name);
